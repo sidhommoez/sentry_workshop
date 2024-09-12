@@ -62,9 +62,6 @@ The application will run on [http://localhost:3000](http://localhost:3000).
 
 ## Python (Flask) Application Setup
 
-
-## Python (Flask) Application Setup
-
 The `python` directory contains a Python application built with Flask that also demonstrates Sentry's error tracking and performance monitoring.
 
 ### Prerequisites
