@@ -47,7 +47,7 @@ Replace YOUR_SENTRY_DSN with your actual Sentry DSN.
 Start the Node.js application:
 
 ```bash
-node app.js
+node app.mjs
 ```
 
 The application will run on [http://localhost:3000](http://localhost:3000).
