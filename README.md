@@ -43,6 +43,13 @@ SENTRY_DSN=YOUR_SENTRY_DSN
 
 Replace YOUR_SENTRY_DSN with your actual Sentry DSN.
 
+### Running the Application
+Start the Node.js application:
+
+```bash
+node app.js
+```
+
 The application will run on [http://localhost:3000](http://localhost:3000).
 
 ### Available Routes
