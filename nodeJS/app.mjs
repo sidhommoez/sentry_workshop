@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Initialize Sentry
 Sentry.init({
-  dsn: "https://b18ee639bbf61c970c22a007b3f8ea20@sentry.prod.services.adup.dev/233", // Replace with your Sentry DSN
+  dsn: "YOUR_DSN", // Replace with your Sentry DSN
   integrations: [
     new Sentry.Integrations.Http({ tracing: true }),
     new TracingIntegrations.Express({ app }),

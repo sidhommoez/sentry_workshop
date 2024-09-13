@@ -1,10 +1,11 @@
 from flask import Flask, request, jsonify
+import requests
 import sentry_sdk
 from sentry_sdk.integrations.flask import FlaskIntegration
 
 # Initialize Sentry
 sentry_sdk.init(
-    dsn="https://b18ee639bbf61c970c22a007b3f8ea20@sentry.prod.services.adup.dev/233",  # Replace with your actual Sentry DSN
+    dsn="YOUR_DSN",  # Replace with your actual Sentry DSN
     integrations=[FlaskIntegration()],
     traces_sample_rate=1.0  # Adjust this rate to control performance monitoring sampling
 )
